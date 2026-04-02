@@ -29,8 +29,8 @@ export const rooms = [
   {
     id: 4,
     slug: 'farm-cottages',
-    name: 'Farm Cottages',
-    description: 'Indulge in the serenity of our three meticulously designed ground-level bedrooms. Built in the local Himachali traditional vernacular architecture using earth bag construction style, while bringing in all modern amenities like heating and air-conditioning, modern bathrooms, comfortable beds & hardwood furniture.',
+    name: 'Farm Cottage',
+    description: 'Indulge in the serenity of our three meticulously designed ground-level bedrooms cottage. Built in the local Himachali traditional vernacular architecture using earth bag construction style, while bringing in all modern amenities like heating and air-conditioning, modern bathrooms, comfortable beds & hardwood furniture.',
     image: '/assets/images/rooms/room-4.jpg',
     amenities: ['Wifi', 'AC', 'Kettle', 'Hanger', 'Desk', 'Shower'],
     airbnbLink: 'https://www.airbnb.co.in/rooms/48947262',

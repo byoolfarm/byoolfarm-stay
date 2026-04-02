@@ -19,7 +19,7 @@ export default function About() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="eyebrow mb-2">WELCOME TO</p>
-          <h2 className="font-display text-dark text-[32px] md:text-[56px] font-bold uppercase tracking-wide tracking-wide">
+          <h2 className="font-display text-dark text-[32px] md:text-[52px] font-bold uppercase  ">
             Byool Farmstay Dharamshala
           </h2>
           <Divider />
@@ -34,7 +34,7 @@ export default function About() {
 
       <section className="bg-offwhite py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-display text-dark text-[32px] md:text-[56px] font-bold uppercase tracking-wide tracking-wide">ENJOY A LUXURY EXPERIENCE</h2>
+          <h2 className="font-display text-dark text-[32px] md:text-[48px] font-bold uppercase tracking-wide tracking-wide">ENJOY A LUXURY EXPERIENCE</h2>
           <Divider />
           <p className="font-body text-body text-base leading-[30px] font-light mb-8">
             Book now the most awesome offer, and secure your summer vacations on time.

@@ -18,24 +18,47 @@ export default function Dining() {
         crumbs={[{label:'Home',to:'/'},{label:'The Dining Room'}]}/>
 
       <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h3 className="font-display text-dark text-[24px] md:text-[36px] font-semibold uppercase leading-relaxed text-center mb-8">
-            Welcome to The Dining Room at Byool farm! We're thrilled to introduce our new cafe, offering a unique culinary experience right here on the tranquil Byool Farm.
-          </h3>
-          <div className="space-y-5 font-body text-body text-base leading-[30px] md:text-base leading-relaxed font-light">
-            <p>Step into a space designed for comfort and connection, where every meal is a celebration of fresh, local flavours. Our menu embraces the bounty of the season, with a special focus on seasonal produce to ensure a truly fresh and vibrant dining experience with every visit. Whether you're a guest staying with us or simply seeking a peaceful escape, The Dining Room offers delicious food and a warm, inviting atmosphere.</p>
-            <p>Beyond delightful dining, The Dining Room is also set to be a vibrant events venue. Get ready for unique culinary events with our exclusive chef pop-ups, featuring specialists in both Indian and international cuisines. Plus, unwind and enjoy our regular live music events, adding another layer of charm to your Byool farm experience. We can't wait to share our table and our vibrant atmosphere with you!</p>
+        <div className="max-w-4xl mx-auto space-y-12">
+          
+          <div className="text-center">
+            <p className="eyebrow mb-2">THE DINING ROOM PAGE</p>
+            <h2 className="font-display text-dark text-[28px] md:text-[40px] font-bold uppercase leading-relaxed mb-4">A private sanctuary for slow meals and mountain flavours</h2>
+            <Divider />
+            <p className="font-body text-body text-base leading-[30px] md:text-lg leading-relaxed font-light">
+              A private, serene sanctuary nestled within the Byool Farm premises. The Dining Room is a space designed for slow conversations, quiet meals, and the simple joy of breaking bread in the mountains.
+            </p>
           </div>
-        </div>
-      </section>
 
-      <section className="bg-offwhite py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-display text-dark text-[28px] md:text-[40px] font-bold uppercase tracking-wide tracking-wide mb-4">The Dining Room</h2>
-          <div className="h-px w-8 bg-gold mx-auto mb-6"/>
-          <p className="font-body text-body text-base leading-[30px] font-light leading-relaxed">
-            Nestled within the serene surroundings of Laugh Tale Hostel, our in-house restaurant offers a cozy, vibrant space to unwind and refuel. Whether you're starting your morning with a hearty breakfast or winding down with drinks.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+              <h3 className="font-display text-dark text-[20px] md:text-[24px] font-semibold uppercase mb-3">Farm-to-Table Experience</h3>
+              <div className="h-px w-8 bg-gold mb-4"/>
+              <p className="font-body text-body text-base leading-[30px] font-light">
+                A rotating seasonal menu celebrating local harvests. We source ingredients locally to bring the mountain's flavour to your plate.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-display text-dark text-[20px] md:text-[24px] font-semibold uppercase mb-3">Private Events & Small Gatherings</h3>
+              <div className="h-px w-8 bg-gold mb-4"/>
+              <p className="font-body text-body text-base leading-[30px] font-light">
+                An intimate destination for family celebrations, curated birthday meals, and post-wedding parties.
+              </p>
+            </div>
+            <div className="md:col-span-2">
+              <h3 className="font-display text-dark text-[20px] md:text-[24px] font-semibold uppercase mb-3">Community & Culture</h3>
+              <div className="h-px w-8 bg-gold mb-4"/>
+              <p className="font-body text-body text-base leading-[30px] font-light">
+                Join us for live acoustic music sessions, culinary pop-ups, and rainy afternoons with board games.
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center pt-8 border-t border-border mt-8">
+            <a href="https://wa.me/918626823139" target="_blank" rel="noopener noreferrer" className="btn-dark inline-block">
+              WhatsApp to Inquire
+            </a>
+          </div>
+
         </div>
       </section>
 

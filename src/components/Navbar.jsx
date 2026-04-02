@@ -8,7 +8,6 @@ const PRIMARY = [
   { label: 'Stay',                        to: '/rooms' },
   { label: 'The Dining Room',             to: '/dining' },
   { label: 'Gallery',                     to: '/gallery' },
-  { label: 'Things To Do',               to: '/things-to-do' },
   { label: 'Cold Mountain Pottery Studio',to: 'https://www.thecoldmountainstudio.com/', ext: true },
   { label: 'Contact Us',                  to: '/contact' },
 ]
@@ -18,12 +17,8 @@ const SIDEBAR = [
   { label: 'Home',                        to: '/' },
   { label: 'About Us',                    to: '/about' },
   { label: 'Stay',                         to: '/rooms' },
-  { label: 'Amenities',                   to: '/amenities' },
   { label: 'Cold Mountain Pottery Studio',to: 'https://www.thecoldmountainstudio.com/', ext: true },
   { label: 'Gallery',                     to: '/gallery' },
-  { label: 'Things To Do',               to: '/things-to-do' },
-  { label: 'Blog',                        to: '/blog' },
-  { label: 'Experiential Packages',       to: '/packages' },
   { label: 'Contact Us',                  to: '/contact' },
 ]
 

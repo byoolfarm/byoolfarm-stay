@@ -7,11 +7,7 @@ import Rooms        from './pages/Rooms'
 import Dining       from './pages/Dining'
 import Food         from './pages/Food'
 import Gallery      from './pages/Gallery'
-import ThingsToDo   from './pages/ThingsToDo'
 import Contact      from './pages/Contact'
-import Blog         from './pages/Blog'
-import Amenities    from './pages/Amenities'
-import Packages     from './pages/Packages'
 import Tariff       from './pages/Tariff'
 
 export default function App() {
@@ -25,11 +21,7 @@ export default function App() {
         <Route path="/dining"        element={<Dining />} />
         <Route path="/food"          element={<Food />} />
         <Route path="/gallery"       element={<Gallery />} />
-        <Route path="/things-to-do"  element={<ThingsToDo />} />
         <Route path="/contact"       element={<Contact />} />
-        <Route path="/blog"          element={<Blog />} />
-        <Route path="/amenities"     element={<Amenities />} />
-        <Route path="/packages"      element={<Packages />} />
         <Route path="/tariff"        element={<Tariff />} />
       </Routes>
       <Footer />
