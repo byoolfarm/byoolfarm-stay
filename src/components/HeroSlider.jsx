@@ -6,8 +6,8 @@ const SLIDES = [
     top:'WELCOME TO', heading:'Byool Farmstay' },
   { id:2, image:'/assets/images/rooms/room-3.jpg',
     top:'INDOOR & OUTDOOR', heading:'LUXURY EXPERIENCE' },
-  { id:3, image:'/assets/images/rooms/room-4.jpg',
-    top:'WELCOME TO', heading:'Byool Farmstay' },
+  { id:3, image:'/assets/images/dining/diningRoom.webp',
+    top:'OUR FARM TO TABLE CAFÉ', heading:'The Dining Room' },
 ]
 
 export default function HeroSlider() {
