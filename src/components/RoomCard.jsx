@@ -39,10 +39,10 @@ export default function RoomCard({ room, index, showBookButton }) {
           })}
         </div>
         <p className="font-body text-body text-base leading-[30px] leading-relaxed font-light mb-6">{room.description}</p>
-        {showBookButton ? (
+        {true ? (
           <a href={room.airbnbLink} target="_blank" rel="noopener noreferrer"
              className="btn-black self-start inline-flex items-center gap-2">
-            BOOK HERE <ExternalLink size={11}/>
+           {showBookButton? "BOOK HERE": "READ MORE" }<ExternalLink size={11}/>
           </a>
         ) : (
           <Link to="/rooms" className="btn-dark self-start">READ MORE</Link>

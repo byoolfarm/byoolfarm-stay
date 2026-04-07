@@ -19,6 +19,14 @@ export const diningImages = [
   { id: 11, src: '/assets/images/dining/din9.jpg',  alt: 'Dining 11' },
   { id: 12, src: '/assets/images/dining/din10.jpg', alt: 'Dining 12' },
   { id: 13, src: '/assets/images/dining/din3.jpg',  alt: 'Dining 13' },
+ { id: 14, src: '/assets/images/dining/din14.jpg',  alt: 'Dining 14' },
+// { id: 15, src: '/assets/images/dining/dining15.jpg',  alt: 'Dining 15' },
+// { id: 16, src: '/assets/images/dining/dining16.jpg',  alt: 'Dining 16' },
+// { id: 17, src: '/assets/images/dining/dining17.jpg',  alt: 'Dining 17' },
+// { id: 18, src: '/assets/images/dining/dining18.jpg',  alt: 'Dining 18' },
+// { id: 19, src: '/assets/images/dining/dining19.jpg',  alt: 'Dining 19' },
+// { id: 20, src: '/assets/images/dining/dining20.jpg', alt: 'Dining 20' },
+// { id: 21, src: '/assets/images/dining/dining21.jpg', alt: 'Dining 21' },
 ]
 
 export const homeGalleryImages = Array.from({ length: 12 }, (_, i) => ({
@@ -32,19 +40,19 @@ export const foodItems = [
     id: 1,
     title: 'Farm to table concept',
     text: 'Experience the freshest flavors straight from the fields to your plate with our farm-to-table dining concept at Byool Farmstay Dharamshala.',
-    image: '/assets/images/amenities/1.jpg',
+    image: '/assets/images/cafe/cafe2.webp',
   },
   {
     id: 2,
     title: 'Hyperlocal produce',
     text: "Savor the freshness of the region with Byool Farmstay Dharamshala's hyperlocal produce, bringing the essence of the Kangra Valley directly to your plate.",
-    image: '/assets/images/amenities/2.jpg',
+    image: '/assets/images/cafe/HYPERLOCAL.webp',
   },
   {
     id: 3,
     title: 'BBQ nights',
     text: 'Savor the flavor of the outdoors under the stars with our unforgettable BBQ nights at Byool Farmstay Dharamshala.',
-    image: '/assets/images/amenities/3.jpg',
+    image: '/assets/images/cafe/BBQ.webp',
   },
   {
     id: 4,

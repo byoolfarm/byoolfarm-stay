@@ -21,7 +21,7 @@ export default function Dining() {
         <div className="max-w-4xl mx-auto space-y-12">
           
           <div className="text-center">
-            <p className="eyebrow mb-2">THE DINING ROOM PAGE</p>
+            {/* <p className="eyebrow mb-2">THE DINING ROOM PAGE</p> */}
             <h2 className="font-display text-dark text-[28px] md:text-[40px] font-bold uppercase leading-relaxed mb-4">A private sanctuary for slow meals and mountain flavours</h2>
             <Divider />
             <p className="font-body text-body text-base leading-[30px] md:text-lg leading-relaxed font-light">

@@ -5,7 +5,7 @@ const SLIDES = [
   { id:1, image:'/assets/images/rooms/room-1.jpg',
     top:'WELCOME TO', heading:'Byool Farmstay' },
   { id:2, image:'/assets/images/rooms/room-3.jpg',
-    top:'INDOOR & OUTDOOR', heading:'LUXURY EXPERIENCE' },
+    top:'INDOOR & OUTDOOR', heading:'Luxury Experience' },
   { id:3, image:'/assets/images/dining/diningRoom.webp',
     top:'OUR FARM TO TABLE CAFÉ', heading:'The Dining Room' },
 ]
@@ -45,8 +45,13 @@ export default function HeroSlider() {
           <div className="flex items-center justify-center gap-4 mb-8">
             <span className="h-px w-12 bg-gold/60"/><span className="text-gold text-xs">✦</span><span className="h-px w-12 bg-gold/60"/>
           </div>
-          <a href="https://www.airbnb.co.in/rooms/48947262" target="_blank" rel="noopener noreferrer"
+
+         {SLIDES[cur]?.id==3?
+         <a href="https://www.byoolfarmstay.com/dining" target="_blank" rel="noopener noreferrer"
+             className="btn-black">PLACE YOUR ORDER</a>
+         :<a href="https://www.airbnb.co.in/rooms/48947262" target="_blank" rel="noopener noreferrer"
              className="btn-black">BOOK YOUR STAY</a>
+         }
         </div>
       </div>
 

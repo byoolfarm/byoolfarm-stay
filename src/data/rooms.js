@@ -6,7 +6,7 @@ export const rooms = [
     description: 'The Celadon room features a king size bed, a study table, and an almirah to store your belongings. The attached bathroom has hot and cold running water, as well as a shower. The common area includes a living room and a dining space, perfect for unwinding with a book or enjoying a meal.',
     image: '/assets/images/rooms/room-1.jpg',
     amenities: ['Wifi', 'AC', 'Kettle', 'Hanger', 'Desk', 'Shower'],
-    airbnbLink: 'https://www.airbnb.co.in/rooms/888009099706365853',
+    airbnbLink: 'https://www.airbnb.co.in/rooms/1435913960427069176',
   },
   {
     id: 2,

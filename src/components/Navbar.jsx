@@ -17,6 +17,7 @@ const SIDEBAR = [
   { label: 'Home',                        to: '/' },
   { label: 'About Us',                    to: '/about' },
   { label: 'Stay',                         to: '/rooms' },
+  { label: 'THE DINING ROOM',                         to: '/dining' },
   { label: 'Cold Mountain Pottery Studio',to: 'https://www.thecoldmountainstudio.com/', ext: true },
   { label: 'Gallery',                     to: '/gallery' },
   { label: 'Contact Us',                  to: '/contact' },

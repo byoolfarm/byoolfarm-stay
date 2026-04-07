@@ -46,7 +46,7 @@ export default function Home() {
             <p className="font-body text-body text-base leading-[30px] font-light max-w-lg mx-auto mb-8">
               Book now the most awesome offer, and secure your summer vacations on time.
             </p>
-            <Link to="/rooms" className="btn-dark">VIEW OUR ROOMS</Link>
+            {/* <Link to="/rooms" className="btn-dark">VIEW OUR ROOMS</Link> */}
           </div>
           {rooms.map((room, i) => (
             <RoomCard key={room.id} room={room} index={i} showBookButton={false}/>
@@ -58,16 +58,16 @@ export default function Home() {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-display text-dark text-[32px] md:text-[56px] font-bold uppercase tracking-wide tracking-wide">Food/Byool Cafe</h2>
+            <h2 className="font-display text-dark text-[32px] md:text-[56px] font-bold uppercase tracking-wide tracking-wide">The Dining Room</h2>
             <Divider />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {foodItems.slice(0,3).map(c => (
-              <Link to="/food" key={c.id}
+            {foodItems.slice(0,3).map((c) => (
+              <Link to="/dining" key={c.id}
                     className="block bg-white shadow-sm overflow-hidden group hover:shadow-md transition-shadow">
-                <div className="overflow-hidden h-52">
+                <div className="overflow-hidden h-64">
                   <img src={c.image} alt={c.title}
-                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                       className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${c.id==1?"object-[center_85%]":""}`}
                        onError={e => { if (!e.currentTarget.src.includes('placeholder-1.jpg')) { e.currentTarget.src='/assets/images/placeholders/placeholder-1.jpg'; } }}/>
                 </div>
                 <div className="p-6">
@@ -79,7 +79,7 @@ export default function Home() {
             ))}
           </div>
           <div className="text-center mt-10">
-            <Link to="/food" className="btn-dark">VIEW ALL</Link>
+            <Link to="/dining" className="btn-dark">VIEW MORE</Link>
           </div>
         </div>
       </section>
