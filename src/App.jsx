@@ -10,6 +10,7 @@ import Food         from './pages/Food'
 import Gallery      from './pages/Gallery'
 import Contact      from './pages/Contact'
 import Tariff       from './pages/Tariff'
+import DayAtFarmPage from './pages/DayAtFarmPage'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/gallery"       element={<Gallery />} />
         <Route path="/contact"       element={<Contact />} />
         <Route path="/tariff"        element={<Tariff />} />
+        <Route path="/day-at-byool-farm" element={<DayAtFarmPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

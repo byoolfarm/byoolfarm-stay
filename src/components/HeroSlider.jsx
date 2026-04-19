@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const SLIDES = [
   { id:1, image:'/assets/images/rooms/room-1.jpg',
@@ -8,6 +9,8 @@ const SLIDES = [
     top:'INDOOR & OUTDOOR', heading:'Luxury Experience' },
   { id:3, image:'/assets/images/dining/diningRoom.webp',
     top:'OUR FARM TO TABLE CAFÉ', heading:'The Dining Room' },
+  { id:4, image:'/images/day_at_farm_6.webp',
+    top:'A Day at Byool Farm', heading:'Farm, Feast, & Play with Clay' },
 ]
 
 export default function HeroSlider() {
@@ -49,6 +52,8 @@ export default function HeroSlider() {
          {SLIDES[cur]?.id==3?
          <a href="https://www.byoolfarmstay.com/dining" target="_blank" rel="noopener noreferrer"
              className="btn-black">PLACE YOUR ORDER</a>
+         : SLIDES[cur]?.id==4?
+         <Link to="/day-at-byool-farm" className="btn-black">VIEW DETAILS</Link>
          :<a href="https://www.airbnb.co.in/rooms/48947262" target="_blank" rel="noopener noreferrer"
              className="btn-black">BOOK YOUR STAY</a>
          }
